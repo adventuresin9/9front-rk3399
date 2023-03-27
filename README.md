@@ -14,3 +14,5 @@ The 2 a72 cores are not turned on.  There also seems to be an issue of a stuck i
 For u-boot
 load kernel to 0x02000000
 load plan9.ini to 0x01900000
+
+This kernel is also a test of modified mmu code.  This runs 42 bit virtual addresses instead of 34 bit.
